@@ -3,7 +3,7 @@
 $servername = "localhost"; // Endereço do servidor
 $username = "root";         // Usuário padrão
 $password = "Senai@118";    // Senha padrão
-$dbname = "teste_formulario"; // Nome do banco de dados do seu CRUD de séries
+$dbname = "teste_formulario"; // Nome do banco de dados de séries
 
 // Conecta ao MySQL
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -14,4 +14,5 @@ if ($conn->connect_error) {
 } else {
     echo "Conexão bem-sucedida!";
 }
+
 ?>
